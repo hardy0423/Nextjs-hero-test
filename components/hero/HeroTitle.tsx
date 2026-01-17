@@ -18,13 +18,13 @@ export default function HeroTitle() {
             <span className="text-(--color-primary)">donner envie</span> de{" "}
             <span className="text-(--color-primary)">rester</span>, pas de{" "}
             <span
-                className="line-through decoration-(--color-dark) decoration-[5px] decoration-offset-8"
+                className="line-through decoration-dark decoration-[6px] -decoration-offset-2"
+                style={{ textDecorationColor: 'var(--color-dark)' }}
             >
-                <span className="text-(--color-primary)">revenir</span>{" "}
-                <span className="text-(--color-light)">en</span>{" "}
-                <span className="text-(--color-primary)">arrière</span>
+                <span className="text-primary">revenir</span>{" "}
+                <span className="text-light">en</span>{" "}
+                <span className="text-primary">arrière</span>
             </span>
-
             <span className="inline-block w-2 h-2 bg-(--color-light) rounded-full"></span>
         </h1>
     );
